@@ -79,7 +79,7 @@
                         <configuration>
                             <dataFile>${project.build.directory}/coverage-reports/jacoco-it.exec</dataFile>
                             <!-- Sets the output directory for the code coverage report. -->
-                            <outputDirectory>${project.reporting.outputDirectory}/jacoco-it</outputDirectory>
+
                             <rules>
                                 <rule>
                                     <element>CLASS</element>
