@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: it.unimol.sokoban.World.BoardTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 3.314 s <<< FAILURE! - in it.unimol.sokoban.World.BoardTest
+it.unimol.sokoban.World.BoardTest.getName  Time elapsed: 0.134 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <test> but was: <a>
+	at it.unimol.sokoban.World.BoardTest.getName(BoardTest.java:29)
+
