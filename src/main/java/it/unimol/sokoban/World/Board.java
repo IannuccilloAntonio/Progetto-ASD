@@ -74,9 +74,7 @@ public class Board extends JPanel {
      * Chiama il meotodo {@link #initBoard()} per inizializzare la finestra di gioco
      */
     public Board() {
-        String response;
-        response = JOptionPane.showInputDialog("Inserisci il tuo nome");
-        this.name = response;
+
         initBoard();
 
     }
@@ -86,7 +84,9 @@ public class Board extends JPanel {
      * Chiama la classe {@link TAdapter} per gestire i movimenti dei giocatori
      */
     private void initBoard() {
-
+        /*String response;
+        response = JOptionPane.showInputDialog("Inserisci il tuo nome");
+        this.name = response;*/
         addKeyListener(new TAdapter());
         setFocusable(true);
         initWorld();
@@ -217,6 +217,7 @@ public class Board extends JPanel {
             }
 
         }
+
     }
 
     /** Metodo per disegnare tutti le componenti create sull'area di gioco
@@ -227,6 +228,7 @@ public class Board extends JPanel {
         super.paintComponent(g);
 
         buildWorld(g);
+
     }
     /** Classe per gestire i movimenti del sokobane.
      * @author Iannuccillo Antonio

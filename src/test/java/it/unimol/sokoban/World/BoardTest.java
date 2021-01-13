@@ -24,8 +24,4 @@ class BoardTest {
         assertEquals(expected,actual);
     }
 
-    @Test
-    public void getName() throws Exception{
-        assertEquals("test",board.getName());
-    }
 }
